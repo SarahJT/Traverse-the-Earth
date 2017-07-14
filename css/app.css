@@ -84,18 +84,22 @@ main-styles selecting all classes defined in html
 		 background-color: #f0f8ff;
 	}
 
+	/*--styling int he foundations flex-container--*/
+
 .flex-container {
 		background-color: #f0f8ff;
 		font-size: 1.5rem;;
 		color #2f5241;
 }
 
+/*---on future plans page, minimal styling around inmmages--*/
+
 .vein {
 		box-shadow: 0px 12px 20px 4px rgb(153, 115, 0);
 		border-radius: 30px;
 }
 
-/*-----begin dropdown button -----*/
+/*-----begin dropdown button  beginning with the -----*/
 .container {
     overflow: hidden;
     background-color: #263300;
