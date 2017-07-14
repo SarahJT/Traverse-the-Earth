@@ -4,46 +4,53 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  bg  <title>Foundation for Sites</title>
+    <title>Foundation for Sites</title>
     <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-  </head>  <!---end of browser stuff for language indicator, styling and interpretation-->
-  <!-- begining or main header and drop down button for site connectivity-->
   </head>
   <body >
-  <div class="main-header">
-      <h1><img class="img-circle" src="img/hand.jpg" alt"World in palm" width="300" height="200">Traverse The Earth</h1>
-       <h2>Oh, the places you can go...</h2>
-       <div class="dropdown" style="float:right;">
-       <button class="dropbtn">Traverse</button>
-       <div class="dropdown-content">
+    <div class="container">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact Us</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">Traverse</button>
+        <div class="dropdown-content" id="myDropdown">
           <a href="eastern.html">Eastern Hemisphere</a>
           <a href="western.html">Western Hemisphere</a>
-          <a href="about.html">Future Plans</a>
           <a href="tips.html">Tips</a>
-          <a href="index.html">Home</a>
+          <a href="future.html">Future Plans</a>
       </div>
-     </div>
     </div>
-      <!--About us-section  using the flex container and spacing
-    the 12 cells between 3 portions of the page built in responsiveness but largest default is at 1200 px CSS coded for 1350-->
-      <section class="info">
+  </div>
+  <header class="main-header">
+    <h1><img class="img-circle" src="img/hand.jpg" alt"World in palm" width="300" height="200">Traverse The Earth</h1>
+    <h2>Oh, the places you can go...</h2>
+  </header>
+    <!--focal point and pic of the globe in palm-->
+    <section class="info">
       <p class="about">A site for travelers who love possibility and the world's curiosities.</p>
         <div class="flex-container align-spaced">
-          <div class="small-4 medium-5 large-5 cell">
+          <div class="small-3 medium-4 large-5 cell">
             <p>Roger and Sarah</p>
             <img src="img/gc_us.jpg">
             <div class="primary callout">
           </div>
           </div>
-          <div class="small medium-2 large-2 cell">
+          <div class="small-6 medium-4 large-2 cell">
             <div class="primary callout">
             </div>
           </div>
-          <div class=" small-4 medium-5 large-5 cell">
+          <div class=" small-3 medium-4 large-5 cell">
             <div class="primary callout">
-            <p>About Us - we are under construction!</p>
+            <p>About Us - under construction!</p>
+            <p>About Us - more about us ;o)!</p>
+            <p>About Us - more about us ;o)!</p>
+            <p>About Us - more about us ;o)!</p>
+            <p>About Us - more about us ;o)!</p>
+            <p>About Us - more about us ;o)!</p>
+            <p>About Us - more about us ;o)!</p>
           </div>
         </div>
       </div>

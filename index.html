@@ -10,20 +10,24 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-  <div class="main-header">
-    <h1><img class="img-circle" src="img/hand.jpg" alt"World in palm" width="300" height="200">Traverse The Earth</h1>
-    <h2>Oh, the places you can go...</h2>
-    <div class="dropdown" style="float:right;">
-    <button class="dropbtn">Traverse</button>
-    <div class="dropdown-content">
+    <div class="container">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+       <a href="contact.html">Contact Us</a>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Traverse</button>
+      <div id="myDropdown" class="dropdown-content">
           <a href="eastern.html">Eastern Hemisphere</a>
           <a href="western.html">Western Hemisphere</a>
-          <a href="future.html">Future Plans</a>
           <a href="tips.html">Tips</a>
-          <a href="about.html">About</a>
+          <a href="future.html">Future Plans</a>
       </div>
     </div>
   </div>
+  <header class="main-header">
+    <h1><img class="img-circle" src="img/hand.jpg" alt"World in palm" width="300" height="200">Traverse The Earth</h1>
+    <h2>Oh, the places you can go...</h2>
+  </header>
     <!--focal point and pic of the globe in palm-->
     <section class="info">
     <p>A site for travelers who love possibility and the world's curiosities.</p>
@@ -32,17 +36,18 @@
     <p>Below are the links to our adventures in the Western and Eastern Hemispheres. </p>
     <div class="flex-container align-spaced">
       <div class="large-4 medium-4 small-4 cell">
-        <p><a href="western.html"</a>Western Hemisphere</p>
+        <p>Western Hemisphere</p>
         <img src="img/west.jpg" class="vein">
         <div class="primary callout">
         </div>
       </div>
-      <div class="large-4 medium-4 small-4 cell-">
+      <div class="large-4 medium-4 small-4 cell">
+        <p>Click a picture. Oh the places you can go! </p>
         <div class="primary callout">
         </div>
       </div>
       <div class="large-4 medium-4 small-4 cell">
-        <p><a href="eastern.html" </a>Eastern Hemisphere</p>
+        <p>Eastern Hemisphere</p>
         <img src="img/east.jpg" class="vein">
         <div class="primary callout">
         </div>
