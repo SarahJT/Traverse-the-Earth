@@ -1,0 +1,224 @@
+                                                                                                                                                                                                                                                                                                                                                  /*------------------
+/*----------------
+base styles
+-------------------*/
+
+
+body {
+	display: flex;
+	flex-direction: column;
+  font-family: Indie Flower, Architects Daughter, cursive;
+  color: #e4e5db;
+
+  }
+
+header {
+	Background: cover;
+}
+
+h1 {
+font-family: Indie Flower, cursive;
+color: #e4e5db;
+font-size: 3.75rem;
+text-align: center;
+font-weight: normal;
+padding-left: 50px;
+padding-bottom: 10px;
+}
+
+
+h2 {
+  font-family: Indie Flower, cursive;
+  color: #e4e5db;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+h3 {
+	color:#2f5241;
+	text-align: right;
+
+}
+
+p {
+	color:#2f5241;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+
+/* ---------------------------------------------------
+main-styles selecting all classes defined in html
+-------------------------------------------------- */
+
+.main-header {
+    background-color: #2f5241;
+    color: #e4e5db;
+    padding: 2rem;
+		background-image: url("../img/dandelion.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+}
+
+.img-circle {
+   border-radius: 50%;
+   float: left;
+    }
+
+.home {
+	color: #2f5241;
+	font-size: 2rem;
+}
+
+.info {
+	 color: #2f5241;
+	 font-size: 2.2rem;
+	 text-align: center;
+	 padding-top: 2rem;
+	 padding-bottom: 2rem;
+	 background-color: #ccff99;
+	}
+
+
+
+.flex-container {
+	background-color: #ccff99;
+	font-size: 2rem;;
+	color #2f5241;
+}
+
+.vein {
+	box-shadow: 0px 12px 20px 2px #004;
+	border-radius: 30px;
+}
+
+
+/*--dd button--
+---Show the dropdown menu  when user clicks on dropdn button) */
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: #e4e5db;
+    padding: 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: default;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/*----content- shadow boxing - sizing--*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #e4e5db;
+    min-width: 115px;
+    box-shadow: 0px 8px 16px 0px #004;
+    z-index: 2;
+		border-radius: 19% 0% 15%;
+}
+
+.dropdown-content a {
+    color: #004;
+		font-size: 1.2em;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #7e815a;
+	border-radius: 19% 0% 15%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/*--end dd--*/
+------------------------*/
+
+.flex-container {
+	float: center;
+	color: #152a38;
+	padding-top: 0;
+	padding-bottom: 5rem;
+	font-size: 1.5rem;
+}
+
+
+
+.floating-box {
+		color: #2f5241;
+		float: left;
+    width: 200px;
+    height: 75px;
+    margin: 10px;
+    border: 2px solid #2f5241;
+}
+
+.pic {
+	padding: 10 5 10;
+}
+
+
+.main-footer {
+	background-color: #2f5241;
+	color: #e4e5db;
+	text-align: center;
+}
+
+/* ---------------------------
+pseudo-classes links and hover etc
+------------------ */
+
+a:link {
+  color: #2f5241;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #55a44e;
+}
+
+a:hover {
+  color: #e4e5db;
+}
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+
+  .theme {
+    font-size: 2.5rem;
+}
+
+	.wrap {
+	min-height: 100vh;
+	color: #2f5241;
+}
+
+  @media (min-width: 1350px) {
+
+  .container {
+  		width: 80%;
+  		max-width: 1350px;
+  	}
