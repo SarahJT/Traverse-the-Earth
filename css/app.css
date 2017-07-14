@@ -84,6 +84,10 @@ main-styles selecting all classes defined in html
 		 background-color: #f0f8ff;
 	}
 
+	.link {
+		color: #2f5241;
+	}
+
 	/*--styling int he foundations flex-container--*/
 
 .flex-container {
@@ -104,8 +108,6 @@ main-styles selecting all classes defined in html
     overflow: hidden;
     background-color: #263300;
     font-family: 'Indie Flower', cursive;
-
-
 }
 
 .container  a {
@@ -115,6 +117,7 @@ main-styles selecting all classes defined in html
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+		border-radius: 5px 5px 5px;
 }
 
 .dropdown {
@@ -197,8 +200,10 @@ main-styles selecting all classes defined in html
 pseudo-classes links and hover etc
 ------------------ */
 
+
+
 a:link {
-	  color:  #e4e5db;
+	  color:  #2f5241;
 	  text-decoration: none;
 }
 
