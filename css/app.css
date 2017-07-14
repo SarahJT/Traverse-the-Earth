@@ -5,11 +5,11 @@ base styles
 
 
 body {
-	display: flex;
-	flex-direction: column;
-  font-family: Indie Flower, cursive;
-  color: #e4e5db;
-  }
+		display: flex;
+		flex-direction: column;
+	  font-family: Indie Flower, cursive;
+	  color: #e4e5db;
+	}
 
 
 header {
@@ -17,38 +17,38 @@ header {
 }
 
 h1 {
-	font-family: Indie Flower, cursive;
-	color: #e4e5db;
-	font-size: 3.5rem;
-	text-align: center;
-	font-weight: normal;
-	padding-left: 50px;
-	padding-bottom: 10px;
+		font-family: Indie Flower, cursive;
+		color: #e4e5db;
+		font-size: 3.5rem;
+		text-align: center;
+		font-weight: normal;
+		padding-left: 50px;
+		padding-bottom: 10px;
 }
 
 
 h2 {
-	font-family: Indie Flower, cursive;
-  color: #e4e5db;
-  font-size: 1em;
-  text-align: center;
+		font-family: Indie Flower, cursive;
+	  color: #e4e5db;
+	  font-size: 1em;
+	  text-align: center;
 }
 
 h3 {
-	font-family: Indie Flower, cursive;
-	color:#2f5241;
-	text-align: right;
+		font-family: Indie Flower, cursive;
+		color:#2f5241;
+		text-align: right;
 }
 h4 {
-	font-family: Indie Flower, cursive;
-	color:#2f5241;
+		font-family: Indie Flower, cursive;
+		color:#2f5241;
 }
 
 p {
-	font-family: Indie Flower, cursive;
-	color:#2f5241;
-	font-size: 1.5rem;
-	text-align: center;
+		font-family: Indie Flower, cursive;
+		color:#2f5241;
+		font-size: 1.5rem;
+		text-align: center;
 }
 
 
@@ -169,7 +169,7 @@ main-styles selecting all classes defined in html
 .show {
     display: block;
 }
-/*-------end drop down--------*/
+/*-------end drop down--------*//*--foundations flex-container--*/
 .flex-container {
 		float: center;
 		color: #152a38;
@@ -178,10 +178,9 @@ main-styles selecting all classes defined in html
 		font-size: 1.5rem;
 }
 
-/*-- western and eastern pages - will be pop up modal--*/
+/*-- western and eastern pages - will be pop up modal--
 
-/*-- modal popup--*/
-
+working on this sitll
 
 /*-- end modal popup--*/
 
@@ -209,6 +208,10 @@ main-styles selecting all classes defined in html
 .info {
 	color: #2f5241;
 	font-size .25rem;
+}
+
+.open{
+	color: #2f5241;
 }
 
 .button {
@@ -248,8 +251,9 @@ a:hover {
 @media (min-width: 769px) {
 
 	.container {
-			width: 90%;
+			width: 100%;
 			margin: 0 auto;
+
 	}
 
 	.wrap {
