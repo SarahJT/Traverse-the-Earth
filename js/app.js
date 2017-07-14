@@ -1,6 +1,5 @@
 
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+//--When the user clicks on the button it will todggle between hide and shoe-->
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -14,3 +13,4 @@ window.onclick = function(e) {
       }
   }
 }
+// submitt button for contact form-->

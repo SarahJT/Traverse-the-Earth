@@ -17,13 +17,13 @@ header {
 }
 
 h1 {
-font-family: Indie Flower, cursive;
-color: #e4e5db;
-font-size: 3.5rem;
-text-align: center;
-font-weight: normal;
-padding-left: 50px;
-padding-bottom: 10px;
+	font-family: Indie Flower, cursive;
+	color: #e4e5db;
+	font-size: 3.5rem;
+	text-align: center;
+	font-weight: normal;
+	padding-left: 50px;
+	padding-bottom: 10px;
 }
 
 
@@ -38,7 +38,10 @@ h3 {
 	font-family: Indie Flower, cursive;
 	color:#2f5241;
 	text-align: right;
-
+}
+h4 {
+	font-family: Indie Flower, cursive;
+	color:#2f5241;
 }
 
 p {
@@ -176,6 +179,12 @@ main-styles selecting all classes defined in html
 }
 
 /*-- western and eastern pages - will be pop up modal--*/
+
+/*-- modal popup--*/
+
+
+/*-- end modal popup--*/
+
 .floating-box {
 		color: #2f5241;
 		float: left;
@@ -189,11 +198,27 @@ main-styles selecting all classes defined in html
 	padding: 10 5 10;
 }
 
+.form {
+		max-width: 50rem;
+		border-radius: 5px 5px 5px;
+		display: inline-block;
+		margin: 25 auto;
+		padding: 15px 15px;
+}
+
+.info {
+	color: #2f5241;
+	font-size .25rem;
+}
+
+.button {
+	color: #f9f9f9;
+	background-color: #b38600;
+}
 
 .main-footer {
 		background-color: #2f5241;
 		color: #e4e5db;
-		text-align: center;
 }
 
 /* ---------------------------
