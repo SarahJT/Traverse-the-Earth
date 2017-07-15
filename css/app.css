@@ -96,6 +96,8 @@ main-styles selecting all classes defined in html
 		background-color: #f0f8ff;
 		font-size: 1.5rem;;
 		color #2f5241;
+		padding-left: 1rem;
+		padding-right: 1rem;
 }
 
 /*---on future plans page, minimal styling around inmmages--*/
