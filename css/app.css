@@ -173,8 +173,9 @@ main-styles selecting all classes defined in html
 			font-size: 1.5rem;
 			text-align: center;
 /*-- see media querie comments--*/
+
 			@media screen and (max-width: 39.937em){
-				.flex-container.horizontal {
+				.flex-container {
 					min-width: 0em;
 					max-width: 39.937em;
 		}
