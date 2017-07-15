@@ -45,10 +45,10 @@ h4 {
 }
 
 p {
-		font-family: Indie Flower, cursive;
-		color:#2f5241;
-		font-size: 1.5rem;
-		text-align: center;
+			font-family: Indie Flower, cursive;
+			color:#2f5241;
+			font-size: 1.5rem;
+			text-align: center;
 }
 
 
@@ -90,93 +90,97 @@ main-styles selecting all classes defined in html
 		color: #2f5241;
 	}
 
-	/*--styling int he foundations flex-container--*/
-
-.flex-container {
-		background-color: #f0f8ff;
-		font-size: 1.5rem;;
-		color #2f5241;
-		padding-left: 1rem;
-		padding-right: 1rem;
-}
-
 /*---on future plans page, minimal styling around inmmages--*/
 
 .vein {
-		box-shadow: 0px 12px 20px 4px rgb(153, 115, 0);
-		border-radius: 30px;
+			box-shadow: 0px 12px 20px 4px rgb(153, 115, 0);
+			border-radius: 30px;
 }
 
-/*-----begin dropdown button  beginning with the -----*/
+/*-----dropdown button I did this for me so I would remember "what I styled"-----*/
 .container {
-    overflow: hidden;
-    background-color: #263300;
-    font-family: 'Indie Flower', cursive;
+	    overflow: hidden;
+	    background-color: #263300;
+	    font-family: 'Indie Flower', cursive;
 }
 
 .container  a {
-    float: left;
-    font-size: 1.25rem;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-		border-radius: 5px 5px 5px;
+	    float: left;
+	    font-size: 1.25rem;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+			border-radius: 5px 5px 5px;
 }
 
 .dropdown {
-    float: left;
-    overflow: hidden;
+	    float: left;
+	    overflow: hidden;
 }
 
 .dropdown .dropbtn {
-    cursor: pointer;
-    font-size: 1.25rem;
-    border: none;
-    outline: none;
-    color: #f9f9f9;
-    padding: 16px 12px;
-    background-color: inherit;
+	    cursor: pointer;
+	    font-size: 1.25rem;
+	    border: none;
+	    outline: none;
+	    color: #f9f9f9;
+	    padding: 16px 12px;
+	    background-color: inherit;
 }
 
 .container  a:hover, .dropdown:hover .dropbtn {
-    background-color: #997300;
+    	background-color: #997300;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #608000;
-    min-width: 160px;
-    box-shadow: 0px 12px 16px 0px rgb(153, 115, 0);
-    z-index: 1;
-		border-radius: 5px 5px 5px;
+	    display: none;
+	    position: absolute;
+	    background-color: #608000;
+	    min-width: 160px;
+	    box-shadow: 0px 12px 16px 0px rgb(153, 115, 0);
+	    z-index: 1;
+			border-radius: 5px 5px 5px;
 }
 
 .dropdown-content a {
-    float: none;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-		border-radius: 5px 5px 5px;
+	    float: none;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	    text-align: left;
+			border-radius: 5px 5px 5px;
 }
 
 .dropdown-content a:hover {
-    background-color: #b38600;
+  	  background-color: #b38600;
 }
 
 .show {
-    display: block;
+    	display: block;
 }
-/*-------end drop down--------*//*--foundations flex-container--*/
+/*-------end drop down--------*/
+/*--begin foundations flex-container--*/
+
 .flex-container {
-		float: center;
-		color: #152a38;
-		padding-top: 0;
-		padding-bottom: 5rem;
-		font-size: 1.5rem;
+			background-color: #f0f8ff;
+			font-size: 1.5rem;;
+			color #152a38;
+			float: center;
+			padding-left: 1rem;
+			padding-right: 1rem;
+			padding-bottom: 3rem;
+			font-size: 1.5rem;
+			text-align: center;
+/*-- see media querie comments--*/
+			@media screen and (max-width: 39.937em){
+				.flex-container.horizontal {
+					min-width: 0em;
+					max-width: 39.937em;
+		}
+	}
 }
+
 
 /*-- western and eastern pages - will be pop up modal--
 
@@ -185,42 +189,42 @@ working on this sitll
 /*-- end modal popup--*/
 
 .floating-box {
-		color: #2f5241;
-		float: left;
-    width: 200px;
-    height: 75px;
-    margin: 10px;
-    border: 2px solid #2f5241;2
+			color: #2f5241;
+			float: left;
+	    width: 200px;
+	    height: 75px;
+	    margin: 10px;
+	    border: 2px solid #2f5241;2
 }
 
 .pic {
-	padding: 10 5 10;
+			padding: 10 5 10;
 }
 
 .info {
-	color: #2f5241;
-	font-size: 1rem;
+			color: #2f5241;
+			font-size: 1rem;
 }
 
 .form {
-		max-width: 25rem;
-		border-radius: 5px 5px 5px;
-		display: block;
-		margin: auto;
-		padding: 25px 5px;
+			max-width: 25rem;
+			border-radius: 5px 5px 5px;
+			display: block;
+			margin: auto;
+			padding: 25px 5px;
 }
 .open{
-	color: #2f5241;
+			color: #2f5241;
 }
 
 .button {
-	color: #f9f9f9;
-	background-color: #b38600;
+			color: #f9f9f9;
+			background-color: #b38600;
 
 
-.footer {
-		background-color: #2f5241;
-		color: #e4e5db;
+.main-footer {
+			background-color: #2f5241;
+			color: #e4e5db;
 }
 
 /* ---------------------------
@@ -228,23 +232,28 @@ pseudo-classes links and hover etc
 ------------------ */
 
 a:link {
-	  color:  #2f5241;
-	  text-decoration: none;
+		  color:  #2f5241;
+		  text-decoration: none;
 }
 
 a:visited {
-	color:  #e4e5db;
+			color:  #e4e5db;
 }
 
 a:hover {
-  	color: #e4e5db;
+  		color: #e4e5db;
 }
 
 
 /* =================================
   Media Queries
 ==================================== */
-
+/*-- small only http://foundation.zurb.com/sites/docs/media-queries.html, I typed these in per the video but
+every media querie imaginable downloads with foundation these can be inserted into a class per the video...I did this on my future page to get it to respond more nicely--*/
+@media screen and (max-width: 39.937em){
+	 min-width: 0em;
+	 max-width: 39.937em;
+}
 
 @media (min-width: 769px) {
 
@@ -253,7 +262,13 @@ a:hover {
 			margin: 0px auto;
 	}
 }
-/*-- added in case image link in mainheader in header is broken __*/
+
+@media screen and (min-width: 40em) (max-width: 63.9375em){
+	 min-width: 40em;
+	 max-width: 63.9375em;
+}
+
+/*-- added in case image link in mainheader in header is broken http://foundation.zurb.com/sites/docs/media-queries.html__*/
 	.wrap {
 			min-height: 100vh;
 			color: #2f5241;
