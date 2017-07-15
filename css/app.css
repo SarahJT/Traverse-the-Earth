@@ -22,7 +22,7 @@ h1 {
 		font-size: 3.5rem;
 		text-align: center;
 		font-weight: normal;
-		padding-left: 50px;
+		padding-left: 40px;
 		padding-bottom: 10px;
 }
 
@@ -72,7 +72,6 @@ main-styles selecting all classes defined in html
 	   border-radius: 50%;
 	   float: left;
     }
-
 
 .home {
 	color: #2f5241;
@@ -124,9 +123,8 @@ main-styles selecting all classes defined in html
 }
 
 .dropdown {
-    float: right;
+    float: left;
     overflow: hidden;
-
 }
 
 .dropdown .dropbtn {
@@ -190,26 +188,25 @@ working on this sitll
     width: 200px;
     height: 75px;
     margin: 10px;
-    border: 2px solid #2f5241;
+    border: 2px solid #2f5241;2
 }
 
 .pic {
 	padding: 10 5 10;
 }
 
-.form {
-		max-width: 50rem;
-		border-radius: 5px 5px 5px;
-		display: inline-block;
-		margin: 25 auto;
-		padding: 15px 15px;
-}
-
 .info {
 	color: #2f5241;
-	font-size .25rem;
+	font-size: 1rem;
 }
 
+.form {
+		max-width: 25rem;
+		border-radius: 5px 5px 5px;
+		display: block;
+		margin: auto;
+		padding: 25px 5px;
+}
 .open{
 	color: #2f5241;
 }
@@ -217,9 +214,9 @@ working on this sitll
 .button {
 	color: #f9f9f9;
 	background-color: #b38600;
-}
 
-.main-footer {
+
+.footer {
 		background-color: #2f5241;
 		color: #e4e5db;
 }
@@ -227,8 +224,6 @@ working on this sitll
 /* ---------------------------
 pseudo-classes links and hover etc
 ------------------ */
-
-
 
 a:link {
 	  color:  #2f5241;
@@ -248,14 +243,15 @@ a:hover {
   Media Queries
 ==================================== */
 
+
 @media (min-width: 769px) {
 
 	.container {
-			width: 100%;
-			margin: 0 auto;
-
+			min-width: 100%;
+			margin: 0px auto;
 	}
-
+}
+/*-- added in case image link in mainheader in header is broken __*/
 	.wrap {
 			min-height: 100vh;
 			color: #2f5241;
@@ -264,6 +260,6 @@ a:hover {
   @media (min-width: 1350px) {
 
   .container {
-  		width: 80%;
+  		min- width: 80%;
   		max-width: 1350px;
   	}

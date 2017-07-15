@@ -15,6 +15,3 @@ window.onclick = function(e) {
 }
 
 //-- submitt button for contact form-->
-function mycode () {
-
-}

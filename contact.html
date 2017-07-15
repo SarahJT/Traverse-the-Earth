@@ -24,30 +24,32 @@
       </div>
     </div>
   </div>
-  <header class="main-header">
-    <h1><img class="img-circle" src="img/hand.jpg" alt"World in palm" width="300" height="200">Traverse The Earth</h1>
+  <header class="main-header" >
+      <h1><img class="img-circle" src="img/hand.jpg" alt"World in palm" width="300" height="200">Traverse The Earth</h1>
       <h2>Oh, the places you can go...</h2>
-  </header>
-  <section class="info">
-    <!--'action' would post to a server side script (if active) and the method is the http server side posting and getting of information -->
-    <form action="index.html" method="post">
-    <div class="form">Request Information<div>
-    <p>First Name:</p>
-    <input type="text" class="name" name="first_name">
-    <p>Last Name:</p>
-    <input type="text" class="name" name="last_name">
-    <p>Email:</p>
-    <input type="text" class="mail" name="user_email">
-    <p>Request Information: Be specific.</p>
-    </form>
-    <form>
-    <button class="button">Submit</button>
-  <form>
-  </section>
-  <footer class="main-footer">&copy; 2017 Traverse the Earth</footer>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
+      </header>
+      <div>
+        <!--'action' would post to a server side script (if active) and the method is the http server side posting and getting of information -->
+        <form action="index.html" method="post">
+      <div class="form">
+        <p>First Name:</p>
+        <input type="text" class="name" name="first_name">
+        <p>Last Name:</p>
+        <input type="text" class="name" name="last_name">
+        <p>Email:</p>
+        <input type="text" class="email" name="user_email">
+        <p>Request Information</p>
+        <textarea class="info" type="text"></textarea>
+        <div class="button">
+        <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+    <footer class="main-footer">&copy; 2017 Traverse the Earth</footer>
+      <script src="js/vendor/jquery.js"></script>
+      <script src="js/vendor/what-input.js"></script>
+      <script src="js/vendor/foundation.js"></script>
+      <script src="js/app.js"></script>
   </body>
 </html>
