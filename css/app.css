@@ -111,11 +111,12 @@ main-styles selecting all classes defined in html
 	    text-align: center;
 	    padding: 14px 16px;
 	    text-decoration: none;
-			border-radius: 5px 5px 5px;
+
 }
 
 .dropdown {
-	    float: left;
+	    float: right;
+			margin-right: 5rem;
 	    overflow: hidden;
 }
 
@@ -142,7 +143,7 @@ main-styles selecting all classes defined in html
 	    z-index: 1;
 			border-radius: 5px 5px 5px;
 }
-
+/*--inside the dropdown styling--*/
 .dropdown-content a {
 	    float: none;
 	    padding: 12px 16px;
@@ -206,22 +207,16 @@ working on this sitll
 			color: #2f5241;
 			font-size: 1rem;
 }
-
+/*--found on contact us and future plans page--*//
 .form {
-			max-width: 25rem;
-			border-radius: 5px 5px 5px;
-			display: block;
-			margin: auto;
-			padding: 25px 5px;
-}
-.open{
-			color: #2f5241;
+
 }
 
+/*-- this is for the button on the contact forms About and Future pages-->
 .button {
 			color: #f9f9f9;
 			background-color: #b38600;
-
+}
 
 .main-footer {
 			background-color: #2f5241;
