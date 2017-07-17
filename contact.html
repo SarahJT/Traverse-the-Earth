@@ -18,7 +18,7 @@
       <div class="dropdown">
         <button class="dropbtn" onclick="myFunction()">Traverse</button>
         <div class="dropdown-content" id="myDropdown">
-        <a href="eastern.html">Eastern Hemisphere</a>
+        <a class= "button" href="eastern.html">Eastern Hemisphere</a>
         <a href="western.html">Western Hemisphere</a>
         <a href="future.html">Future Plans</a>
         <a href="tips.html">Tips</a>
@@ -26,31 +26,30 @@
     </div>
   </div>
   <header class="main-header" >
-      <!--section where there is text and or pictures or form-->
+      <!--section where there is text and pictureof globe in plam -->
       <h1><img class="img-circle" src="img/hand.jpg" alt"World in palm" width="300" height="200">Traverse The Earth</h1>
       <h2>Oh, the places you can go...</h2>
       </header>
-      <div>
       <div class="info">
-      <div class="form"><!--'action' would post to a server side script (if active) and the method is the http server side posting and getting of information -->
-        <form action="index.html" method="post">
-        <p>First Name:</p>
-        <input type="text" class="name" name="first_name">
-        <p>Last Name:</p>
-        <input type="text" class="name" name="last_name">
-        <p>Email:</p>
-        <input type="text" class="email" name="user_email">
-        <p>Request Information</p>
-        <textarea class="info" type="text"></textarea>
-        <div class="button">
-        <button type="submit">Send</button>
-        </form>
+        <p>Interested in finding more about the places we have been ?</p>
+        <p>Send us a request for more information.</p>
       </div>
-     </div>
-    </div>
-   </div>
-     <!--section where there is text and or pictures or form-->
-    <footer class="main-footer">&copy; 2017 Traverse the Earth</footer>
+       <div class="form"><!--'action' would post to a server side script (if active) and the method is the http server side posting and getting of information -->
+          <form action="index.html" method="post">
+          <p>First Name:</p>
+          <input type="text" class="name" name="first_name">
+          <p>Last Name:</p>
+          <input type="text" class="name" name="last_name">
+          <p>Email:</p>
+          <input type="email" class="mail" name="user_email">
+          <p>Request Information</p>
+          <textarea class="info" type="text"></textarea>
+          </form>
+      <div class="button">
+          <button type="submit" onclick="myfunction1()">Send</button>
+      </div>
+    </div> <!--section where there is text and or pictures or form-->
+      <footer class="main-footer">&copy; 2017 Traverse the Earth</footer>
       <script src="js/vendor/jquery.js"></script>
       <script src="js/vendor/what-input.js"></script>
       <script src="js/vendor/foundation.js"></script>
