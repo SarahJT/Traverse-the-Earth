@@ -157,7 +157,6 @@ main-styles selecting all classes defined in html
 			padding-left: 1.75rem;
 			padding-right: 1.75rem;
 			padding-bottom: 3rem;
-			font-size: 1.5rem;
 			text-align: center;
 }
 
@@ -196,6 +195,10 @@ working on this sitll
 				background-color: #f0f8ff;
 				padding: 1rem 25rem;
 	}
+
+.class {
+
+}
 /*-- this is for the button on the contact forms About and Future pages--*/
 .button {
 		color: #f9f9f9;

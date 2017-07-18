@@ -23,9 +23,9 @@ function myfunction1(){
 
 //-- simple mouse over on the home page for verbage 'Western Hemisphere' and 'Eastern Hemisphere' in <p> tag-->
 function mouseOver() {
-    document.getElementById("color").style.color = "rgb(204, 57, 0)";
-}
+    document.getElementById("shade").style.color = "rgb(0, 0, 230)";
+};
 
 function mouseOut() {
-    document.getElementById("color").style.color = "rgb(51, 102, 0)";
-}
+    document.getElementById("shade").style.color = "rgb(51, 102, 0)";
+};
