@@ -7,14 +7,9 @@ base styles - not .classes
 body {
 		display: flex;
 		flex-direction: column;
-	  font-family: Indie Flower, cursive;
 	  color: #e4e5db;
 	}
 
-
-header {
-	Background: cover;
-}
 
 h1 {
 		font-family: Indie Flower, cursive;
@@ -73,10 +68,6 @@ main-styles selecting all classes defined in html
 	   float: left;
 }
 
-.home {
-	color: #2f5241;
-}
-
 	.link {
 		color: #2f5241;
 	}
@@ -96,12 +87,16 @@ main-styles selecting all classes defined in html
 }
 
 .container  a {
-	    float: left;
-	    font-size: 1.25rem;
-	    color: #f9f9f9;
-	    text-align: center;
-	    padding: 14px 16px;
-	    text-decoration: none;
+			cursor: pointer;
+			font-size: 1.5rem;
+			border: none;
+			outline: none;
+			color: #f9f9f9;
+			padding: 12px 16px;
+			display: inline-block;
+			background-color: inherit;
+			z-index: 1;
+			border-radius: 5px 5px 5px;
 
 }
 /*--begin dropdown button attibutes--*/
@@ -113,7 +108,7 @@ main-styles selecting all classes defined in html
 
 .dropdown .dropbtn {
 	    cursor: pointer;
-	    font-size: 1.25rem;
+	    font-size: 1.5rem;
 	    border: none;
 	    outline: none;
 	    color: #f9f9f9;
@@ -156,7 +151,7 @@ main-styles selecting all classes defined in html
 
 .flex-container {
 			background-color: #f0f8ff;
-			font-size: 1.5rem;;
+			font-size: 1.5rem;
 			color #152a38;
 			float: center;
 			padding-left: 1.75rem;
@@ -188,20 +183,19 @@ working on this sitll
 /*-- for paragraph info--*/
 .info {
 		 color: #2f5241;
-		 font-size: 1.5rem;
+		 font-size: 2.5rem bold;
 		 text-align: center;
 		 padding-top: 2rem;
-		 padding-bottom: 2rem;
+		 padding-bottom: 1.5rem;
 		 background-color: #f0f8ff;
 	}
-/*--found on contact us and future plans page--*/
-.form {
-			position: center;
-			background-color: #f0f8ff;
-			padding: 1rem 25rem;
 
-}
-
+	/*--found on contact us and future plans page--*/
+	.form {
+				position: center;
+				background-color: #f0f8ff;
+				padding: 1rem 25rem;
+	}
 /*-- this is for the button on the contact forms About and Future pages--*/
 .button {
 		color: #f9f9f9;
@@ -215,24 +209,7 @@ working on this sitll
 			text-align: center;
 }
 
-/* ---------------------------
-pseudo-classes links and hover etc
-*not being used at this time but keeping for later use with modal popup's
 
-a:link {
-		  color:  #2f5241;
-		  text-decoration: none;
-}
-
-a:visited {
-			color:  #e4e5db;
-}
-
-a:hover {
-  		color: #e4e5db;
-}
-
--------------------------------*/
 /* =================================
   Media Queries
 ==================================== */
@@ -256,12 +233,7 @@ every media querie imaginable downloads with foundation these can be inserted in
 	 max-width: 63.9375em;
 }
 
-/*-- added in case image link in mainheader in header is broken http://foundation.zurb.com/sites/docs/media-queries.html__*/
-	.wrap {
-			min-height: 100vh;
-			color: #2f5241;
-}
-
+/*--foundations videos stte there is a 1200 max-width setting and the 1350px screen can be added per extra wide screens--*/
   @media (min-width: 1350px) {
 
   .container {

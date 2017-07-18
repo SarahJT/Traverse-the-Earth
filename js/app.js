@@ -22,17 +22,10 @@ function myfunction1(){
 }
 
 //-- simple mouse over on the home page for verbage 'Western Hemisphere' and 'Eastern Hemisphere' in <p> tag-->
-document.getElementById("color").onmouseover = function(){
-  mouseOver()
-};
-document.getElementById("color").onmouseout = function() {
-  mouseOut()
-};
-
 function mouseOver() {
-    document.getElementById("color").style.color = "#b38600";
+    document.getElementById("color").style.color = "rgb(204, 57, 0)";
 }
 
 function mouseOut() {
-    document.getElementById("color").style.color = "#2f5241";
+    document.getElementById("color").style.color = "rgb(51, 102, 0)";
 }
