@@ -3,12 +3,11 @@ Hi, my name is Sarah Thiemann and this readme is about my travels with my husban
 
 I thought Traverse the Earth was a good name and since in code we traverse the DOM, incorporating 'Travers' was applicable syntax!  
 
-Home: A high level look at our site with two active links to our travels divided by East and West. An active Navigation bar to take you anywhere on the site using a JS dropdown button that traverses deeper into the sight.  
+index.html/HOME: A high level look at our site with two active links to our travels divided by East and West. An active Navigation bar to take you anywhere on the site using a JS dropdown button that traverses deeper into the sight.  
 
-About Us: is a short synopsis of what we have accomplished in twelve years.
+About Us: will be a short synopsis of what we have accomplished in twelve years.
 
-Contact US: this site will have a responsive form where we can be contacted for insight both positive/negative
-from our experiences.
+Contact US: this site will have a responsive form where we can be contacted for insight on our experiences.
 
 Western Hemisphere & Eastern Hemisphere: Both these pages will chronical the places, major for now, where we have visited. In the future this will include asides we have experienced. This will be through a POPUP Modal so the viewer will be able to read a short description and view and enlarged version of the picture on the page.
 
