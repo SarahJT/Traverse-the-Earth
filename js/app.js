@@ -14,18 +14,8 @@ window.onclick = function(e) {
   }
 }
 
-
 //-- a little bit 'o' js -response from the button 'click' on the page and Contact Us page (Future Plans-not implemented yet)-->
 //hide till clicked, then click 'ok' on dialogue box-->
 function myfunction1(){
   alert("Thanks, we will be in touch!");
 }
-
-//-- simple mouse over on the home page for verbage 'Western Hemisphere' and 'Eastern Hemisphere' in <p> tag-->
-function mouseOver() {
-    document.getElementById("shade").style.color = "rgb(0, 0, 230)";
-};
-
-function mouseOut() {
-    document.getElementById("shade").style.color = "rgb(51, 102, 0)";
-};
