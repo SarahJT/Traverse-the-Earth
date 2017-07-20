@@ -1,4 +1,5 @@
-$(document).foundation()
+
+
 //--When you click on the button it will todggle between hide and show-->
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -14,8 +15,28 @@ window.onclick = function(e) {
   }
 }
 
-//-- a little bit 'o' js -response from the button 'click' on the page and Contact Us page (Future Plans-not implemented yet)-->
-//hide till clicked, then click 'ok' on dialogue box-->
-function myfunction1(){
-  alert("Thanks, we will be in touch!");
-}
+
+//-- form validation for contact page-->
+
+$('#myForm')
+  .on('invalid.fndtn.abide', function () {
+    var invalid_fields = $(this).find('[data-invalid]');
+    console.log(invalid_fields);
+  })
+
+  .on('valid.fndtn.abide', function () {
+    console.log('valid!');
+  });
+
+
+//--mouseover for nav bar-->
+
+$(document).ready(function(){
+  $('li').mouseover(function(){
+    $(this).addClass('hover');
+  });
+
+    $('li').mouseout(function(){
+      $(this).removeClass('hover');
+  });
+});

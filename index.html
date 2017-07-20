@@ -11,7 +11,8 @@
   </head>
   <!-- above is the styling and relevant browser info that loads first before the web page, body below-->
   <body>
-    <div class="container"> <!--container is were the site nav is-->
+    <!--container is were the site nav is-->
+    <div class="container">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
        <a href="contact.html">Contact Us</a>
@@ -25,7 +26,9 @@
       </div>
     </div>
   </div>
-  <header class="main-header">  <!-- where theinage of globe in palm is located and site title-->
+
+  <!-- where theinage of globe in palm is located and site title-->
+  <header class="main-header">
     <h1><img class="img-circle" src="img/hand.jpg" alt"World in palm" width="300" height="200">Traverse The Earth</h1>
     <h2>Oh, the places you can go...</h2>
   </header>
@@ -36,31 +39,33 @@
     <p>Come and see some of the beautiful people we've met and places we have seen.</p>
     <p>Below are the links to our adventures in the Western and Eastern Hemispheres. </p>
   </div>
-    <div class="flex-container align-spaced"> <!--Foundation6 flex-container still learning how to utilze this...-->
-      <div class="large-4 medium-4 small-4 cell">
-        <a  href="western.html" width="300" height="200">
-        <p>Western Hemisphere</p>
-        <img src="img/west.jpg" class="vein">
-        <div class="primary callout">
-        </div>
-      </div>
-      <div class="large-4 medium-4 small-4 cell">
-        <div class="primary callout">
-        </div>
-      </div>
-      <div class="large-4 medium-4 small-4 cell" width="300" height="200">
-        <a href="eastern.html">
-        <p>Eastern Hemisphere</p>
-        <img src="img/east.jpg" class="vein">
-        <div class="primary callout">
-        </div>
-       </div>
+  <!--Foundation6 flex-container still learning how to utilze this...-->
+  <div class="flex-container align-spaced">
+    <div class="large-4 medium-4 small-4 cell">
+      <a  href="western.html" width="300" height="200">
+      <p>Western Hemisphere</p>
+      <img src="img/west.jpg" class="vein">
+      <div class="primary callout">
       </div>
     </div>
-    <footer class="main-footer">&copy; 2017 Traverse the Earth</footer>   <!--sticky footer below and the JS that loads after the html document to prevent slower site loading-->
-        <script src="js/vendor/jquery.js"></script>
-        <script src="js/vendor/what-input.js"></script>
-        <script src="js/vendor/foundation.js"></script>
-        <script src="js/app.js"></script>
+    <div class="large-4 medium-4 small-4 cell">
+      <div class="primary callout">
+      </div>
+    </div>
+    <div class="large-4 medium-4 small-4 cell" width="300" height="200">
+      <a href="eastern.html">
+      <p>Eastern Hemisphere</p>
+      <img src="img/east.jpg" class="vein">
+      <div class="primary callout">
+      </div>
+     </div>
+    </div>
+  </div>
+  <!--sticky footer below and the JS that loads after the html document to prevent slower site loading-->
+  <footer class="main-footer">&copy; 2017 Traverse the Earth</footer>
+      <script src="js/vendor/jquery.js"></script>
+      <script src="js/vendor/what-input.js"></script>
+      <script src="js/vendor/foundation.js"></script>
+      <script src="js/app.js"></script>
   </body>
 </html>

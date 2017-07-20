@@ -1,17 +1,18 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8"> <!--html page loading and reading style sheets=, fonts etc...-->
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Traverse the Earth</title>
-  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Indie+Flower" rel="stylesheet">
-  <link rel="stylesheet" href="css/foundation.css">
-  <link rel="stylesheet" href="css/app.css">
-</head>
-<!-- above is the styling and relevant browser info that loads first before the web page, body below-->
-<body>
-  <div class="container"> <!--container is were the site nav is-->
+  <head>
+    <meta charset="utf-8"> <!--html page loading and reading style sheets=, fonts etc...-->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traverse the Earth</title>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <!-- above is the styling and relevant browser info that loads first before the web page, body below-->
+  <body>
+  <!-- body of the site & container is were the site nav is-->
+  <div class="container">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="contact.html">Contact Us</a>
@@ -24,12 +25,14 @@
     </div>
    </div>
   </div>
-  <header class="main-header"><!-- where the image of globe in palm is located and site title-->
+  <!-- where the image of globe in palm is located and site title-->
+  <header class="main-header">
     <h1><img class="img-circle" src="img/hand.jpg" alt"World in palm" width="300" height="200">Traverse The Earth</h1>
     <h2>Oh, the places you can go...</h2>
   </header>
+  <!--Foundation6 flex-container still learning how to utilze this... hold image link to outside URL-->
     <div class="info">
-        <div class="flex-container align-spaced"> <!--Foundation6 flex-container still learning how to utilze this... hold image link to outside URL-->
+        <div class="flex-container align-spaced">
         <div class="large-4 medium-4 small-4 cell-1rem">
           <a href="http://bestfriends.org/">
           <p id="shade" onmouseover="mouseOver()" onmouseout="mouseOut()">Best Friends.Org</p>
@@ -50,13 +53,14 @@
         <div class="primary callout">
       </div>
     </div>
+   </div>
   </div>
-</div>
-    <footer class="main-footer">&copy; 2017 Traverse the Earth</footer>   <!--sticky footer below and the JS that loads after the html document to prevent slower site loading-->
-      <script src="js/vendor/jquery.js"></script>
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-      <script src="js/vendor/what-input.js"></script>
-      <script src="js/vendor/foundation.js"></script>
-      <script src="js/app.js"></script>
-    </body>
-  </html>
+  <!--sticky footer below and the JS that loads after the html document to prevent slower site loading-->
+  <footer class="main-footer">&copy; 2017 Traverse the Earth</footer>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+ </body>
+</html>
