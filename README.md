@@ -1,7 +1,7 @@
 # Traverse the Earth
-Hi, my name is Sarah Thiemann and this readme is about my travels with my husband, Roger and  the practical application of our experience can apply to other people and their travels.
+Hi, my name is Sarah Thiemann and this readme is about my travels with my husband, Roger and how the practical application our experience can apply to other people and their travels.
 
-I thought Traverse the Earth was a good name and since in code we traverse the DOM, incorporating 'Travers' was applicable syntax!  
+I thought Traverse the Earth was a good name and since in code we traverse the DOM, incorporating 'Traverse' was applicable syntax!  
 
 index.html/HOME: A high level look at our site with two active links to our travels divided by East and West. An active Navigation bar to take you anywhere on the site using a JS dropdown button that traverses deeper into the sight.  
 
